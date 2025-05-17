@@ -11,7 +11,8 @@ import {
 import Auth from "./pages/auth";
 import Profile from "./pages/profile";
 import Chat from "./pages/Chat";
-import { useAppStore } from "./store/index";
+
+import { useAppStore } from "../../store"; // ✅ adjust `..` based on location
 
 
 
