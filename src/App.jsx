@@ -11,7 +11,7 @@ import {
 import Auth from "./pages/auth";
 import Profile from "./pages/profile";
 import Chat from "./pages/Chat";
-import { useAppStore } from "../src/store/index";
+import { useAppStore } from "./store/index";
 
 
 
