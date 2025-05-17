@@ -10,6 +10,7 @@ import { useNavigate } from "react-router-dom";
 import { useAppStore } from "@/Store";
 import BackGround from "./bg.mp4";
 
+
 const Auth = () => {
   const { setUserInfo } = useAppStore();
   const navigate = useNavigate();
