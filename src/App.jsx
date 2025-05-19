@@ -11,11 +11,7 @@ import {
 import Auth from "./pages/auth";
 import Profile from "./pages/profile";
 import Chat from "./pages/Chat";
-
-import { useAppStore } from "../../store"; // ✅ adjust `..` based on location
-
-
-
+import { useAppStore } from "./store_temp";
 import { useState, useEffect } from "react";
 import { toast } from "sonner";
 import { GET_USER_INFO } from "./Services/urlHelper";
