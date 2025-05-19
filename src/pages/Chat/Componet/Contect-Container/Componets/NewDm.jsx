@@ -24,7 +24,7 @@ import { useNavigate } from "react-router-dom";
 import { HOST, SEARCH_CONTECTS } from "@/Services/urlHelper";
 import { ApiService } from "@/Services/ApiService";
 import { toast } from "sonner";
-import { useAppStore } from "@/Store";
+import { useAppStore } from "@/store";
 
 const NewDm = () => {
   const navigate = useNavigate();

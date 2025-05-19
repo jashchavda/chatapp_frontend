@@ -3,7 +3,7 @@ import ProfileInfo from "./Componets/ProfileInfo";
 import NewDm from "./Componets/NewDm";
 import { GET_ALL_CHANNELS, GET_CONTECT_FOR_DM } from "@/Services/urlHelper";
 import { ApiService } from "@/Services/ApiService";
-import { useAppStore } from "@/Store";
+import { useAppStore } from "@/store";
 import ContectListDm from "@/components/ui/ContectListDm";
 import CreateChannel from "./Componets/Create-Channel";
 import { FaBell } from "react-icons/fa";

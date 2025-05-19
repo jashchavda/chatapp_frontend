@@ -1,4 +1,4 @@
-import { useAppStore } from "@/Store";
+import { useAppStore } from "@/store";
 import React, { useEffect, useRef, useState } from "react";
 import moment from "moment";
 import { toast } from "sonner";

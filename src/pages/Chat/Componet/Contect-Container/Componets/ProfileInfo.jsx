@@ -1,5 +1,5 @@
 import { HOST, LOGOUT_URL } from "@/Services/urlHelper";
-import { useAppStore } from "@/Store";
+import { useAppStore } from "@/store";
 import React, { useEffect, useState } from "react";
 import { Avatar, AvatarImage, AvatarFallback } from "@radix-ui/react-avatar";
 import { getColor } from "@/lib/utils";

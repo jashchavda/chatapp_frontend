@@ -1,7 +1,7 @@
 import { useSocket } from "@/Context/SocketContext";
 import { ApiService } from "@/Services/ApiService";
 import { UPLOAD_FILE_IN_DM } from "@/Services/urlHelper";
-import { useAppStore } from "@/Store";
+import { useAppStore } from "@/store";
 import EmojiPicker from "emoji-picker-react";
 import React, { useEffect, useRef, useState } from "react";
 import { GrAttachment } from "react-icons/gr";

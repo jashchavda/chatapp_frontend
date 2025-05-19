@@ -7,7 +7,7 @@ import { ApiService } from "@/Services/ApiService";
 import { LOGIN_URL, SIGNUP_URL } from "@/Services/urlHelper";
 import { toast } from "sonner";
 import { useNavigate } from "react-router-dom";
-import { useAppStore } from "@/Store";
+import { useAppStore } from "@/store";
 import BackGround from "./bg.mp4";
 
 

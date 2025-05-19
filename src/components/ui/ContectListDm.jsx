@@ -1,4 +1,4 @@
-import { useAppStore } from "@/Store";
+import { useAppStore } from "@/store";
 import React from "react";
 import moment from "moment"; // Assuming you're using moment.js to format the date
 import { Avatar, AvatarImage, AvatarFallback } from "@radix-ui/react-avatar";

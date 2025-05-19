@@ -21,7 +21,7 @@ import { useNavigate } from "react-router-dom";
 import { CREATE_CHANNEL, GET_ALL_CONTECT_FOR_DM } from "@/Services/urlHelper";
 import { ApiService } from "@/Services/ApiService";
 import { toast } from "sonner";
-import { useAppStore } from "@/Store";
+import { useAppStore } from "@/store";
 import { Button } from "@/components/ui/button";
 import MultipleSelector from "@/components/ui/muiltiSelect";
 

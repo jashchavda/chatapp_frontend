@@ -1,4 +1,4 @@
-import { useAppStore } from "@/Store";
+import { useAppStore } from "@/store";
 import React from "react";
 import { RiCloseFill } from "react-icons/ri";
 import { Avatar, AvatarImage, AvatarFallback } from "@radix-ui/react-avatar";
